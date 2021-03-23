@@ -1,34 +1,49 @@
-<h2>{{hero.name | uppercase}}</h2>
+<h2>Mis heroes Favoritos</h2>
+
+<ul class="heroes">
+<li *ngFor= "let hero of heroes"
+[class.selected]= "hero === selectedHero"
+(click)="onSelect(hero)">
+<span class="badge">{{hero.id}}</span>{{hero.name}}
+
+</li>
+
+</ul>
+
+<div *ngIf= "selectedHero">
+<h2>{{selectedHero.name | uppercase}} Detalles</h2>
+<div><span>id:</span>{{selectedHero.id}}</div>
 
 <div>
-    <span>id:</span>{{hero.id}}
+  <label for = "hero-name">Heroe nombre</label>
+<input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="nombre">
+
+
 </div>
-    <div>
-        <label for="name">Nombre de super heroe</label>
-        
-        <input id="name" [(ngModel)]="hero.name" placeholder="nombre">
-    </div>
-    <div>
-        <label for="edad">Edad</label>
-       
-        <input id="edad" [(ngModel)]="hero.edad" placeholder="edad">
-    </div>
-    <div>
-        <label for="superpoder">Super Poder</label>
-      
-        <input id="superpoder" [(ngModel)]="hero.superpoder" placeholder="poder">
-    </div>
-    <div>
-        <label for="universo">Universo</label>
-      
-        <input id="universo" [(ngModel)]="hero.universo" placeholder="universo">
-    </div>
-    <div>
-        <label for="identidad">Identidad</label>
-       
-        <input id="identidad" [(ngModel)]="hero.identidad" placeholder="Identidad">
-    </div>
-    
+
+<div>
+  <label for = "hero-edad">Heroe Edad</label>
+<input id="hero-edad" [(ngModel)]="selectedHero.edad" placeholder="Edad">
+
+
+</div>
+
+
+<div>
+  <label for = "Poder">Poderes</label>
+<input id="Poder" [(ngModel)]="selectedHero.superpoder" placeholder="Poder">
+
+
+</div>
+
+<div>
+  <label for = "identidad">identidad</label>
+<input id="identidad" [(ngModel)]="selectedHero.identidad" placeholder="identidad">
+
+
+</div>
+
+</div>
     
     
     
