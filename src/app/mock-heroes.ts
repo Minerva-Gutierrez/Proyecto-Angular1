@@ -2,23 +2,23 @@ import {Hero} from"./hero";
 
 export const HEROES: Hero[]=[
 
-    {id:11,name:"superman",edad:30,superpoder:"extraterrestre",universo:"DC",identidad:"Sysntax.error"},
+    {id:11,name:"SUPERMAN",edad:30,superpoder:"extraterrestre",universo:"DC",identidad:"profesor"},
 
-    {id:12,name:"batman",edad:40,superpoder:"inteligencia",universo:"DC",identidad:"Sysntax.error"},
+    {id:12,name:"BATMAN",edad:40,superpoder:"inteligencia",universo:"DC",identidad:"empresario"},
     
-    {id:13,name:"hulk",edad:30,superpoder:"fuerza",universo:"MARVEL",identidad:"Sysntax.error"},
+    {id:13,name:"HULK",edad:30,superpoder:"fuerza",universo:"MARVEL",identidad:"obrero"},
     
-    {id:14,name:"iron man",edad:40,superpoder:"tecnologia",universo:"MARVEL",identidad:"Sysntax.error"},
+    {id:14,name:"IRON MAN",edad:40,superpoder:"tecnologia",universo:"MARVEL",identidad:"magnate"},
     
-    {id:13,name:"thor",edad:45,superpoder:"dios",universo:"MARVEL",identidad:"Sysntax.error"},
+    {id:13,name:"HOMBRE HORMIGA",edad:45,superpoder:"fuerza",universo:"MARVEL",identidad:"dios"},
     
-    {id:13,name:"spiderman",edad:21,superpoder:"trepar",universo:"MARVEL",identidad:"Sysntax.error"},
+    {id:13,name:"SPIDER MAN",edad:21,superpoder:"trepar",universo:"MARVEL",identidad:"estudiante"},
     
-    {id:13,name:"black widow",edad:30,superpoder:"extraterrestre",universo:"MARVEL",identidad:"Sysntax.error"},
+    {id:13,name:"BLACK WINDOW",edad:30,superpoder:"extraterrestre",universo:"MARVEL",identidad:"cientifico"},
     
-    {id:13,name:"flash",edad:25,superpoder:"veloz",universo:"DC",identidad:"Sysntax.error"},
+    {id:13,name:"ACUAMAN",edad:37,superpoder:"fuerza",universo:"DC",identidad:"ingeniero"},
     
-    {id:13,name:"bruja escarlata",edad:35,superpoder:"extraterrestre",universo:"MARVEL",identidad:"Sysntax.error"},
+    {id:13,name:"BRUJA ESCARLATA",edad:35,superpoder:"extraterrestre",universo:"MARVEL",identidad:"ama de casa"},
     
-    {id:13,name:"mujer maravilla",edad:30,superpoder:"amazona",universo:"DC",identidad:"Sysntax.error"}
+    {id:13,name:"MUJER MARAVILLA",edad:30,superpoder:"amazona",universo:"DC",identidad:"el amor de mi vida"}
 ];
