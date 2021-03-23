@@ -1,3 +1,5 @@
+import {Hero} from"./hero";
+
 export const HEROES: Hero[]=[
 
     {id:11,name:"superman",edad:30,superpoder:"extraterrestre",universo:"DC",identidad:"Sysntax.error"},
